@@ -1,7 +1,7 @@
 # pr2csv
 Podcast Republic database to CSV converter
 
-**Initial pupose**
+**Initial pupose**  
   Extract from the exported database file of Android application Podcast Republic the episode names and publication date of the podcasts.
   It will store that in a .CSV file allowing to know the correspondance of each downloaded MP3 file.
 
