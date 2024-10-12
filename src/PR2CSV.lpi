@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <ProjectOptions>
-    <Version Value="11"/>
+    <Version Value="12"/>
     <PathDelim Value="\"/>
     <General>
+      <Flags>
+        <CompatibilityMode Value="True"/>
+      </Flags>
       <SessionStorage Value="InProjectDir"/>
-      <MainUnit Value="0"/>
       <Title Value="PR2CSV"/>
       <ResourceType Value="res"/>
       <UseXPManifest Value="True"/>
@@ -18,9 +20,9 @@
       <UseVersionInfo Value="True"/>
       <AutoIncrementBuild Value="True"/>
       <MajorVersionNr Value="1"/>
-      <MinorVersionNr Value="1"/>
+      <MinorVersionNr Value="2"/>
       <RevisionNr Value="1"/>
-      <BuildNr Value="126"/>
+      <BuildNr Value="131"/>
       <StringTable Comments="Made for the world made by the world!" CompanyName="The world!" FileDescription="Podcast Republic to CSV extractor" InternalName="PR2CSV" OriginalFilename="PR2CSV.exe" ProductName="PR2CSV" ProductVersion="1.1.1.87"/>
     </VersionInfo>
     <BuildModes Count="1">
@@ -90,6 +92,9 @@
       <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <Linking>
+      <Debugging>
+        <DebugInfoType Value="dsDwarf2Set"/>
+      </Debugging>
       <Options>
         <Win32>
           <GraphicApplication Value="True"/>

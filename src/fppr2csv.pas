@@ -149,9 +149,9 @@ const
   COL_FormulaForOutputName = 5;
   COL_OutputName = 6;
 
-  sEPISODE_KEYWORD = 'Episode_R4';
-  sDOWNLOAD_KEYWORD = 'Download_R3';
-  sPOD_KEYWORD = 'Pod_R6';
+  sEPISODE_KEYWORD = 'Episode_R6';
+  sDOWNLOAD_KEYWORD = 'Download_R5';
+  sPOD_KEYWORD = 'Pod_R8';
 
 { TfrmPR2CSV }
 
